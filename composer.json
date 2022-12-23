@@ -1,0 +1,34 @@
+{
+    "name": "volodymyr-klymniuk/common-bus-bundle",
+    "description": "Common bus. Chain of middleware.",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "Volodymyr Klymniuk",
+            "email": "volodymyr.klymniuk@gmail.com"
+        }
+    ],
+    "keywords": [
+        "php",
+        "common-bus",
+        "middleware",
+        "symfony-bundle"
+    ],
+    "require": {
+        "php": ">7.4",
+        "psr/container": "^1.9",
+        "symfony/framework-bundle": "^5.2",
+        "symfony/dependency-injection": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "VKCommonBus\\": "src/"
+        }
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    }
+}
