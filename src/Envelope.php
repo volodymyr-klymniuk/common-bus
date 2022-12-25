@@ -1,6 +1,6 @@
 <?php
 
-namespace VKCommonBus;
+namespace VKCommonBusBundle;
 
 final class Envelope
 {

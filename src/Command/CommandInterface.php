@@ -1,6 +1,6 @@
 <?php
 
-namespace VKCommonBus\Command;
+namespace VKCommonBusBundleBunle\Command;
 
 interface CommandInterface
 {

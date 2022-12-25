@@ -1,6 +1,6 @@
 <?php
 
-namespace VKCommonBus;
+namespace VKCommonBusBundle;
 
 interface EnvelopeItemInterface extends \Serializable
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace VKCommonBus\Stack;
+namespace VKCommonBusBundle\Stack;
 
-use VKCommonBus\Envelope;
-use VKCommonBus\Middleware\MiddlewareInterface;
+use VKCommonBusBundle\Envelope;
+use VKCommonBusBundle\Middleware\MiddlewareInterface;
 
 class StackMiddleware implements MiddlewareInterface, StackInterface
 {

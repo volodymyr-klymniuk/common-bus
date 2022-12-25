@@ -2,10 +2,12 @@
 
 namespace VKCommonBusBundle;
 
-interface MessageBusInterface
+interface CommonBusInterface
 {
     /**
-     * @param object|Envelope $message The message with pre-wrapper envloped data
+     * Dispatches the given message.
+     *
+     * @param object|Envelope $message
      *
      * @return Envelope
      */

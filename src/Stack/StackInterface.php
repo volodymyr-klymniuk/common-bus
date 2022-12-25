@@ -1,8 +1,8 @@
 <?php
 
-namespace VKCommonBus\Stack;
+namespace VKCommonBusBundle\Stack;
 
-use VKCommonBus\Middleware\MiddlewareInterface;
+use VKCommonBusBundle\Middleware\MiddlewareInterface;
 
 interface StackInterface
 {

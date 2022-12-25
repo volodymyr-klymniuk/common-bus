@@ -1,10 +1,10 @@
 <?php
 
-namespace VKCommonBus\DependencyInjection;
+namespace VKCommonBusBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
-use VKCommonBus\Facade\AbstractFacade;
+use VKCommonBusBundle\Facade\AbstractFacade;
 
 final class CommonBusFacadeExtension extends Extension
 {
